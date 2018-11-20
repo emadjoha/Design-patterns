@@ -8,5 +8,5 @@ package packCompositionExample;
 
 
 public interface Employee {
-    public void showEmployeeDetails();
+    void showEmployeeDetails();
 }

@@ -4,10 +4,17 @@ package packCompositionExample;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ * @Composite
+ *
+ *
+ * */
+
+
 public class CompanyDirectory implements Employee {
 
     private List<Employee> employeeList = new ArrayList<>();
-
 
 
     @Override
@@ -15,7 +22,6 @@ public class CompanyDirectory implements Employee {
         for (Employee emp: employeeList) {
             emp.showEmployeeDetails();
         }
-
     }
 
 
