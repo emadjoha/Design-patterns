@@ -22,8 +22,8 @@ public class Developer implements Employee {
     @Override
     public void showEmployeeDetails() {
         System.out.println("Employee ID :"+this.empId +
-                           "Employee Name:"+ this.name +
-                          "Employee Position:"+this.position);
+                           " ,Employee Name:"+ this.name +
+                          " ,Employee Position:"+this.position);
     }
 
 }
