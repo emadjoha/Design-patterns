@@ -1,7 +1,7 @@
 package Association;
 
 public class B {
-    public void print(){
+    public void print() {
         System.out.println("I'm Assocation Relation");
     }
 }

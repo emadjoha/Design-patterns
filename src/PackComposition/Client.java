@@ -2,9 +2,9 @@ package PackComposition;
 
 public class Client {
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
 
-        Leaf leaf  = new Leaf("A");
+        Leaf leaf = new Leaf("A");
         Leaf leaf1 = new Leaf("B");
         Composite composite = new Composite();
         composite.add(leaf);

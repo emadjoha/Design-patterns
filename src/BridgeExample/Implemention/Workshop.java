@@ -1,6 +1,5 @@
 package BridgeExample.Implemention;
 
-public interface Workshop
-{
+public interface Workshop {
     abstract public void work();
 }

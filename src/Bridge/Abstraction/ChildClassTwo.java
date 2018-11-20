@@ -2,7 +2,7 @@ package Bridge.Abstraction;
 
 import Bridge.Realization.ImplementClass;
 
-public class ChildClassTwo extends ParentClass{
+public class ChildClassTwo extends ParentClass {
 
 
     @Override

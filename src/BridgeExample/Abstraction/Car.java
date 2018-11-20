@@ -2,7 +2,7 @@ package BridgeExample.Abstraction;
 
 import BridgeExample.Implemention.Workshop;
 
-public class Car extends Vehicle{
+public class Car extends Vehicle {
 
     public Car(Workshop workShop1, Workshop workShop2) {
         super(workShop1, workShop2);

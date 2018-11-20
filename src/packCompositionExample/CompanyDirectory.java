@@ -5,11 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
  * @Composite
- *
- *
- * */
+ */
 
 
 public class CompanyDirectory implements Employee {
@@ -19,16 +16,17 @@ public class CompanyDirectory implements Employee {
 
     @Override
     public void showEmployeeDetails() {
-        for (Employee emp: employeeList) {
+        for (Employee emp : employeeList) {
             emp.showEmployeeDetails();
         }
     }
 
 
-    public void addEmployee(Employee employee){
+    public void addEmployee(Employee employee) {
         employeeList.add(employee);
     }
-    public void removeEmployee(Employee employee){
+
+    public void removeEmployee(Employee employee) {
         employeeList.remove(employee);
     }
 

@@ -2,7 +2,7 @@ package Proxy;
 
 public class Object {
 
-    public void func(){
+    public void func() {
 
     }
 }

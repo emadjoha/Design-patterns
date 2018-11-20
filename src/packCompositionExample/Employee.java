@@ -1,10 +1,8 @@
 package packCompositionExample;
 
 /**
- *
  * @component
- *
- * */
+ */
 
 
 public interface Employee {
