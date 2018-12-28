@@ -1,7 +1,7 @@
 package Adapter;
 
 public class Client {
-    Target target = new Target();
+    Target target = new Adapter();
 
     public void F() {
         int a = 0, b = 1;
